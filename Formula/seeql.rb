@@ -1,26 +1,26 @@
 class Seeql < Formula
   desc "Terminal SQL client for PostgreSQL, MySQL, and SQLite"
   homepage "https://github.com/seanhalberthal/seeql"
-  version "0.0.2"
+  version "0.0.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/seanhalberthal/seeql/releases/download/v0.0.2/seeql-darwin-arm64"
-      sha256 "43841aae214d14533bd9314e3f1b71d47ce7cdd6dc4da7923f55e752ced55de2"
+      url "https://github.com/seanhalberthal/seeql/releases/download/v0.0.3/seeql-darwin-arm64"
+      sha256 "ef1cdfb5bc3c50c2fc92f8c91d27029d8c6c72169f8c0cf2ea9a93a01652ca35"
     else
-      url "https://github.com/seanhalberthal/seeql/releases/download/v0.0.2/seeql-darwin-amd64"
-      sha256 "16210af968607e04885488292cab30c429a160b1694360d45f19eb853e4a950e"
+      url "https://github.com/seanhalberthal/seeql/releases/download/v0.0.3/seeql-darwin-amd64"
+      sha256 "4ea024506561fd6f106209a2c9c4d42bd201270cc642e0fec240d52e1e252284"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/seanhalberthal/seeql/releases/download/v0.0.2/seeql-linux-arm64"
-      sha256 "073068e667273d08af9d761b244f3ef95d8eae5ba1025c7746cc9ef034494b73"
+      url "https://github.com/seanhalberthal/seeql/releases/download/v0.0.3/seeql-linux-arm64"
+      sha256 "dbb1638e36b3d5055fb59824629e662c808386c0222220cbe27ef908cf476bf2"
     else
-      url "https://github.com/seanhalberthal/seeql/releases/download/v0.0.2/seeql-linux-amd64"
-      sha256 "2c3a650eb858bbaac63d8a575676262f7002aa22edd7fcacd9a8889d828f76a1"
+      url "https://github.com/seanhalberthal/seeql/releases/download/v0.0.3/seeql-linux-amd64"
+      sha256 "e3c8ae667b87e4e6523dea583e9a9ddff6a0475fc662b88b3e909b4787d6e575"
     end
   end
 
