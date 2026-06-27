@@ -6,7 +6,7 @@ class Poke < Formula
   on_macos do
     on_arm do
       url "https://github.com/undont/poke/releases/download/v0.2.0/poke_darwin_arm64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "6a39155a4e6beb02afe823f63d8fb675c2c47a9fb57be408c2d2ba5a685eb195"
 
       def install
         bin.install "poke", "poked"
@@ -15,7 +15,7 @@ class Poke < Formula
 
     on_intel do
       url "https://github.com/undont/poke/releases/download/v0.2.0/poke_darwin_amd64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "6a39155a4e6beb02afe823f63d8fb675c2c47a9fb57be408c2d2ba5a685eb195"
 
       def install
         bin.install "poke", "poked"
@@ -26,7 +26,7 @@ class Poke < Formula
   on_linux do
     on_arm do
       url "https://github.com/undont/poke/releases/download/v0.2.0/poke_linux_arm64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "6a39155a4e6beb02afe823f63d8fb675c2c47a9fb57be408c2d2ba5a685eb195"
 
       def install
         bin.install "poke", "poked"
@@ -35,7 +35,7 @@ class Poke < Formula
 
     on_intel do
       url "https://github.com/undont/poke/releases/download/v0.2.0/poke_linux_amd64.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "6a39155a4e6beb02afe823f63d8fb675c2c47a9fb57be408c2d2ba5a685eb195"
 
       def install
         bin.install "poke", "poked"
