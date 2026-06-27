@@ -1,13 +1,13 @@
 class Supplyscan < Formula
-  desc "Security scanner for JavaScript lockfiles — detects supply chain compromises and vulnerabilities"
+  desc "Security scanner for JavaScript and Python lockfiles — detects supply chain compromises and vulnerabilities"
   homepage "https://github.com/undont/supplyscan"
-  version "1.14.0"
+  version "1.15.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/undont/supplyscan/releases/download/v1.14.0/supplyscan-darwin-arm64"
-      sha256 "1c77d79ddbcd086a85ad4bebe7cb13c1bcf09ca0bed6e0a533ecad841a783559"
+      url "https://github.com/undont/supplyscan/releases/download/v1.15.0/supplyscan-darwin-arm64"
+      sha256 "0457196bf098df50776993d113652df7941b60d8888ef810b9373a66d79d3cdd"
 
       def install
         bin.install "supplyscan-darwin-arm64" => "supplyscan"
@@ -15,8 +15,8 @@ class Supplyscan < Formula
     end
 
     on_intel do
-      url "https://github.com/undont/supplyscan/releases/download/v1.14.0/supplyscan-darwin-amd64"
-      sha256 "e6d3652d6fa9051a950287e29b34a7f16e3ad055902bef0dc1dff52f5029d847"
+      url "https://github.com/undont/supplyscan/releases/download/v1.15.0/supplyscan-darwin-amd64"
+      sha256 "207bac373063e98476a934271bb64da8b432f97b435ef2623986a5457aa05bc9"
 
       def install
         bin.install "supplyscan-darwin-amd64" => "supplyscan"
@@ -26,8 +26,8 @@ class Supplyscan < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/undont/supplyscan/releases/download/v1.14.0/supplyscan-linux-arm64"
-      sha256 "ec7dc22ac498fdc5e4c417fe7413c4b8e2fd67d898ddcb808fea7a9429233094"
+      url "https://github.com/undont/supplyscan/releases/download/v1.15.0/supplyscan-linux-arm64"
+      sha256 "7564661f6ba062794c28a1565e94ca67fdcf0531c6b33e5478da5e910e041a69"
 
       def install
         bin.install "supplyscan-linux-arm64" => "supplyscan"
@@ -35,8 +35,8 @@ class Supplyscan < Formula
     end
 
     on_intel do
-      url "https://github.com/undont/supplyscan/releases/download/v1.14.0/supplyscan-linux-amd64"
-      sha256 "3a1207eed7c7c1501f9899f64a9f5bb22aedeb51799b4cd52efb4d51f7e855c8"
+      url "https://github.com/undont/supplyscan/releases/download/v1.15.0/supplyscan-linux-amd64"
+      sha256 "24fa47373c5b1e483006e8a6070060d2e0f0c22adbc97e7acae913327f894f45"
 
       def install
         bin.install "supplyscan-linux-amd64" => "supplyscan"
