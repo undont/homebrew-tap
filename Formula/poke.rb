@@ -1,12 +1,12 @@
 class Poke < Formula
   desc "Terminal-native pokes for a small dev team, surfaced in tmux"
   homepage "https://github.com/undont/poke"
-  version "0.4.1"
+  version "0.5.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/undont/poke/releases/download/v0.4.1/poke_darwin_arm64.tar.gz"
-      sha256 "e5f6baee5fe997784d515c3dfa2aa31613a960c6c7aac6ca1e9691a7b4c54185"
+      url "https://github.com/undont/poke/releases/download/v0.5.0/poke_darwin_arm64.tar.gz"
+      sha256 "caec9cd6267e0474ee0b9e12145fef25dbb2a4a26832cf88d6403564f4d10701"
 
       def install
         bin.install "poke", "poked"
@@ -14,8 +14,8 @@ class Poke < Formula
     end
 
     on_intel do
-      url "https://github.com/undont/poke/releases/download/v0.4.1/poke_darwin_amd64.tar.gz"
-      sha256 "16ed5940f91542373ff63ec29568eec14007face5f7ed5d34c0e56130cdeb8b7"
+      url "https://github.com/undont/poke/releases/download/v0.5.0/poke_darwin_amd64.tar.gz"
+      sha256 "da362959b42a0be04690c7027aba50676385846223064a4c8d03a75f095b348e"
 
       def install
         bin.install "poke", "poked"
@@ -25,8 +25,8 @@ class Poke < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/undont/poke/releases/download/v0.4.1/poke_linux_arm64.tar.gz"
-      sha256 "d369ff401a130db0e7766fc5c1500d5ba58942cc969daa10f6d4c28c53f2856b"
+      url "https://github.com/undont/poke/releases/download/v0.5.0/poke_linux_arm64.tar.gz"
+      sha256 "7daf28c36ceb9e15845933a3834eaa796ec7007571af77d0e6398d99986bb1a5"
 
       def install
         bin.install "poke", "poked"
@@ -34,8 +34,8 @@ class Poke < Formula
     end
 
     on_intel do
-      url "https://github.com/undont/poke/releases/download/v0.4.1/poke_linux_amd64.tar.gz"
-      sha256 "096a1fa939e1c77b73f2fec59c9d9c8826069355bf747933b7ace86a79d34e63"
+      url "https://github.com/undont/poke/releases/download/v0.5.0/poke_linux_amd64.tar.gz"
+      sha256 "f17a930f6c17b2b01f85ea8472913451a1d4de921cb16a0b4b5e716bdc779b6a"
 
       def install
         bin.install "poke", "poked"
